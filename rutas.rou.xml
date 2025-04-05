@@ -1,0 +1,15 @@
+<routes>
+  <!-- Ajusta los IDs y nombres de aristas ("edges") según tu red generada. -->
+  
+  <!-- Definir el tipo de vehículo -->
+  <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+  
+  <!-- Definir una ruta más larga usando bordes normales -->
+  <route id="ruta_simple" edges="bottom0A0 A0B0 B0C0 C0right0"/>
+  
+  <!-- Definir varios vehículos que usen la ruta -->
+  <vehicle id="veh1" type="car" route="ruta_simple" depart="0"/>
+  <vehicle id="veh2" type="car" route="ruta_simple" depart="5"/>
+  <vehicle id="veh3" type="car" route="ruta_simple" depart="10"/>
+  <vehicle id="veh4" type="car" route="ruta_simple" depart="15"/>
+</routes>
