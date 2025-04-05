@@ -10,7 +10,6 @@ Este proyecto implementa un simulador de tráfico vehicular utilizando SUMO (Sim
 
 ## Estructura del Proyecto
 ```
-proyecto_movilidad/
 ├── red.netcfg          # Configuración de la red de carreteras
 ├── red.net.xml         # Red generada (archivo generado)
 ├── rutas.rou.xml       # Definición de rutas y vehículos
